@@ -19,6 +19,7 @@ db.sqlite3
 
 # Media files
 /media/
+/data/
 
 # Log files
 *.log
