@@ -24,5 +24,5 @@ urlpatterns = [
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns.append(
-    path('challenge/', include('challenge.api.urls'))
+    path('api/', include('challenge.api.urls'))
 )
