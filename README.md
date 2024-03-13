@@ -60,12 +60,12 @@ La aplicación ahora estará en funcionamiento localmente en `http://127.0.0.1:8
 ## Endpoints Disponibles
 A continuación se muestra una lista de los endpoints disponibles en esta aplicación:
 
-- /api/list/ - Lista todos los autos disponibles.
+- `/api/list/` - Lista todos los autos disponibles.
   - Métodos HTTP soportados: GET
   - Parámetros de filtro: `car_type` (espera el id del tipo de vehiculo a filtrar)
-- /api/type_list/ - Lista todos los tipos de autos disponibles. 
+- `/api/type_list/` - Lista todos los tipos de autos disponibles. 
   - Métodos HTTP soportados: GET
-- /api/get/<id>/ - Detalles de un auto en específico.
+- `/api/get/<id>/` - Detalles de un auto en específico.
   - Métodos HTTP soportados: GET
 
 ## Administracion
