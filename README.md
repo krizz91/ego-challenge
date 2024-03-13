@@ -62,7 +62,11 @@ A continuación se muestra una lista de los endpoints disponibles en esta aplica
 
 - `/api/list/` - Lista todos los autos disponibles.
   - Métodos HTTP soportados: GET
-  - Parámetros de filtro: `car_type` (espera el id del tipo de vehiculo a filtrar)
+  - Parámetros de filtro:
+    - `car_type` (espera el id del tipo de vehiculo a filtrar)
+  - Parámetros de ordenamiento (`ordering`):
+    - `price` o `-price` (ordena por precio)
+    - `created` o `-created` (ordena por fecha de creación)
 - `/api/type_list/` - Lista todos los tipos de autos disponibles. 
   - Métodos HTTP soportados: GET
 - `/api/get/<id>/` - Detalles de un auto en específico.
